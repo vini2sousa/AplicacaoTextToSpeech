@@ -215,7 +215,7 @@ export default function Home() {
                 onClick={textToVoice}
                 loading={loading}
                 disabled={!text || !selectedVoiceId}
-              >Escutar Áudio</Button>
+              >Escutar texto digitado</Button>
             </div>
           </>
         )}
